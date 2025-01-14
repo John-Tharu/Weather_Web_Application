@@ -13,7 +13,7 @@ let currentdata = (citys) =>{
             return value.json();
         }
     }).then((value) =>{
-        console.log(value);
+       // console.log(value);
         if (value == 0){
             document.querySelector(".main").style.display = "none";
             document.querySelector(".error").style.display = "block";
